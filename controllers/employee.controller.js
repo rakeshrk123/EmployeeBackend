@@ -37,7 +37,7 @@ exports.getAll = (req,res,next) =>{
             status:"success",
             message:"Successfully Retrieved all the employees",
             data:{
-                empolyees:result
+                emp:result
             }
         })
     })

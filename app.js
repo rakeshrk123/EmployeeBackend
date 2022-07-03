@@ -34,13 +34,13 @@ app.use('/admin',adminrouter)
 
 app.get('/', (req,res)=>{
     res.json({
-        message:"Hello naidu"
+        message:"Hello Rakesh"
         }
     )
 })
 
 
-const PORT = process.env.PORT || 8000
+const PORT = process.env.PORT || 8080
 
 app.listen(PORT, () => {
     console.log(`Server is up and running on ${PORT}`)
